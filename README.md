@@ -31,3 +31,4 @@ This is a simple currency converter application built with React. It allows user
 - Special thanks to [API Provider](https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json) for providing the exchange rate data.
 
 
+ 
