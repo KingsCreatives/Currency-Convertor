@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 
+
 function App() {
   
 
   return (
-    <>
-      <h1>Hello world</h1>
-        
-    </>
+    <div
+    className='flex justify-center items-center mx-auto my-11 py-4  bg-gray-700 text-gray-500'
+    >
+       
+    </div>
   )
 }
 
