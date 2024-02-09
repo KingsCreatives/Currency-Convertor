@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useId} from 'react'
 
 
 function InputBox(
@@ -9,14 +9,18 @@ function InputBox(
         currencyOption = [],
         onCurrencyChange, 
         className = ""
-       }
-) {
+       }) 
+
+// const id = useId()
+
+{
   return (
     <div className={`${className} flex border border-gray-400  rounded-md`}>
             <div className='w-1/3 px-2 py-1 '>
                 <input type="number"
                  className='outline-none
                  px-2 py-1  bg-gray-700'
+                //  id={id}
                     value={amount}
                     onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value))}
                 />

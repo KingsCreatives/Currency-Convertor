@@ -19,6 +19,7 @@ function useCurrencyInfo(currency){
 
         fetchData()        
     }, [currency])
+    return data
 }
 
 export default useCurrencyInfo;
