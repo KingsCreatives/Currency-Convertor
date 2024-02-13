@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { useState} from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import InputBox from './components/InputBox'
+import useCurrencyData from './hooks/useCurrencyData'
 
 
 
 function App(){
   
+  useCurrencyData()
   return (
     <div className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-gray-950'
     >
